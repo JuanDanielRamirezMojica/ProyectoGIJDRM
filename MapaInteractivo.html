@@ -1,0 +1,125 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Definir la codificación de caracteres -->
+    <meta charset="UTF-8">
+    <!-- Definir el idioma de la página -->
+    <meta lang="es">
+    <!-- Título de la página -->
+    <title>Proyecto GI - Entrega 2 JDRM</title>
+    <!-- Enlazar la hoja de estilos externa -->
+    <link href="css/estilos.css" rel="stylesheet" type="text/css">
+    <!-- Configurar la visualización inicial y la escalabilidad para dispositivos móviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <!-- Establecer el ícono de la página -->
+    <link rel="icon" href="imagenes/Logo2.png" type="image/x-icon">
+
+
+
+    <!-- Incluir la biblioteca Phaser.js -->
+    <script src="phaser.js"></script>
+
+    <!-- Incluir el script ScripMapaInteractivo.js -->
+    <script src="ScripMapaInteractivo.js"></script>
+
+    <!-- Incluir la biblioteca Hammer.js para el manejo de gestos táctiles -->
+    <script src="Hammer.js"></script>
+</head>
+
+
+<body>
+
+
+<div class="content-container">
+	<section class = "header2">
+		<nav>
+			<input type="checkbox" id="menu-btn">
+			<label for="menu-btn" class="menu-icon">☰</label>
+
+			<div class="nav-links">
+				<ul> <!-- los botones son elementos de una lista que define el menu pero mantiene el mismo diseño de cada botón, la posición de esta lista depende del estado del checkbox-->
+					<li><a href="Index.html" target="_self">Inicio</a></li>
+					<li><a href="EspacioFisico.html" target="_self">Espacio Físico</a></li>
+					<li><a href="Historia.html" target="_self">Historia</a></li> 
+					<li><a href="Personajes.html" target="_self">Personajes</a></li>
+					<li><a href="Actividades.html" target="_self">Actividades</a></li>
+                    <li><a href="MapaInteractivo.html" target="_self">Mapa</a></li>
+					<li><a href="Creditos.html" target="_self">Créditos</a></li> 
+				</ul>
+			</div>
+		</nav>
+
+
+     <!--</header>-->
+	<div class = "Texto-Index-1">
+	    <h1>Mapa Interactivo</h1>  
+	    <br>
+		<br>
+		<p> ¡Bienvenido a Gotham! <br> <br> <br> Explora Gotham con este mapa interactivo.<br> Descubre puntos de interés y sumérgete en las leyendas de esta ciudad única.</p><br>
+		
+		<a href="Creditos.html" target="_self" class="Index-Btn CursorMurcielago">Fuentes y bibliografía</a>
+		
+	</div>
+
+	</section>
+
+	<br>
+	<br>
+
+<!-- Menú de navegación dentro de la página-->
+<nav class="minimenu">
+	<h2>Seleccionar</h2>
+    <ul>
+        <li><a href="#MapGen">Mapa General</a></li>
+        <li><a href="#MapInt">Mapa Interactivo</a></li>
+    </ul>
+</nav>
+
+
+
+    <!-- L -->
+
+    <section class="HistoriaText">
+        <div class="HistoriaText">
+        <div id="MapGen">
+            <div class="ClaseMapaInteractivo">
+            <br>
+                    <h1>Mapa General</h1>
+                     <p><br>A continuación, te presentamos nuevamente el mapa de Ciudad Gótica. No olvides explorar los emocionantes lugares marcados y utilízalo como guía en caso de extravío. Descubre cada rincón de esta metrópolis llena de misterios y sorpresas. ¡Que tu aventura comience con cada clic en nuestro detallado mapa! Además, más abajo encontrarás un mapa interactivo que puede ser de tu interés. ¡No dudes en sumergirte en la experiencia y descubrir todo lo que la ciudad tiene para ofrecer!<br><br></p> 
+                    <img src="imagenes/InteractiveMap.png" alt="Mapa de Gotham." /> 
+                    
+
+
+                    <div id="MapInt">
+                    <br>
+                    <br>
+                        <h1>Mapa Interactivo</h1>
+                        <br>
+                        <!-- Java Scrip Mapa Interactivo -->
+                        <p>¿Te gustaría buscar a Batman en las calles de Gotham? Sigue sus huellas y quién sabe, ¡puede que te lo encuentres en persona! Nuestro mapa interactivo destaca los lugares donde ha aparecido con mayor frecuencia este año. Haz clic en los íconos de Batman para descubrir los puntos exactos y cuántas veces ha sido avistado. ¡Embárcate en esta emocionante búsqueda del Caballero Oscuro!</p> 
+                        
+                        <p>Nota: Si estás utilizando un dispositivo móvil, como un celular, utiliza la pantalla táctil para desplazarte por el mapa y explorar los puntos de interés de Gotham. En caso de que estés en una computadora, utiliza las teclas de dirección para navegar por el mapa de manera eficiente. ¡Disfruta de la experiencia de búsqueda, ya sea deslizando tus dedos o utilizando las teclas en tu exploración!</p> 
+                        <br>
+                        <div class="MapaInteractivo" id="MapaInteractivoph"></div>  
+
+                    </div>        
+                </div>
+            </div>
+
+            <a href="MapaInteractivo.html" target="_self" class="boton-regreso CursorMurcielago">Volver al Inicio</a>
+        </div>
+    </section>
+
+    <div class="footer">
+        <h> Presentado por: Juan Daniel Ramírez Mojica<br></h>
+        <h>Correo electrónico: juaramirezmo@unal.edu.co<br></h>
+        <h>Universidad Nacional de Colombia<br></h>
+        <h>Noviembre del 2023</h>
+    </div>
+
+</body>
+
+</html>

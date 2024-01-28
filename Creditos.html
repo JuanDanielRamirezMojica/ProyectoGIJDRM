@@ -1,0 +1,359 @@
+<!doctype html>
+<!-- Juan Daniel Ramírez Mojica, estudiante de Ingeniería Industrial de la Universidad Nacional de Colombia.-->
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- La codificación UTF-8 permite utilizar tildes y ñ en el contenido (nunca en los nombres o las etiquetas).-->
+<meta lang="es"><!-- La W3C recomienda definir un idioma al inicio además de la codificación UTF-8, se define el español.-->
+<title>Proyecto GI - Entrega 2 JDRM</title>
+<link href="css/estilos.css" rel="stylesheet" type="text/css"><!-- Llama el archivo "estilos".css -->
+<meta name="viewport" content="width=device-width; initial-scale=1.0"><!-- Establece el ancho para que ocupe la ventana del dispositivo al 100% al inicio. -->
+
+<!-- Acá se define el logo o icono cada vez que se abre la pesataña  -->
+<link rel="icon" href="imagenes/Logo2.png" type="image/x-icon">
+
+
+</head>
+
+<body>
+
+	<section class = "header">
+		<nav>
+			<a href= "Creditos.html"<img src = "imagenes/Logo.png"></a>
+		    <!-- <header><!-- el elemento header incluye el menu desplegable y el ícono que lo despliega -->
+            <!-- <input type="checkbox" id="btn-menu"><!-- checkbox permite la opción boleana -->
+            <!--<label for="btn-menu"><img src="imagenes/menu.png" width="10px"></label>
+            <!-- la imagen del ícono se muestra como label del checkbox pero se oculta cuando no se necesita -->
+			<input type="checkbox" id="menu-btn">
+			<label for="menu-btn" class="menu-icon">☰</label>
+
+			<div class="nav-links"> <!-- Inicia una sección de enlaces de navegación -->
+<!-- Varios elementos de menú que son enlaces a otras páginas HTML -->
+				<ul> <!-- los botones son elementos de una lista que define el menu pero mantiene el mismo diseño de cada botón, la posición de esta lista depende del estado del checkbox-->
+					<li><a href="Index.html" target="_self">Inicio</a></li>
+					<li><a href="EspacioFisico.html" target="_self">Espacio Físico</a></li>
+					<li><a href="Historia.html" target="_self">Historia</a></li> 
+					<li><a href="Personajes.html" target="_self">Personajes</a></li>
+					<li><a href="Actividades.html" target="_self">Actividades</a></li>
+					<li><a href="MapaInteractivo.html" target="_self">Mapa</a></li>
+					<li><a href="Creditos.html" target="_self">Créditos</a></li> 
+				</ul>
+			<div>
+		</nav>
+
+
+     <!--</header>-->
+	<div class = "Texto-Index-1">
+	    <h1>CRÉDITOS</h1>  
+	    <br>
+		<br>
+		<p> Agradecimientos especiales: <br> <br></p><br>
+		
+		<a href="Index.html" target="_self" class="Index-Btn CursorMurcielago">Volver al inicio</a>	
+		
+	</div>
+
+	</section>
+
+	<!--  Sección para el autor de la página -->
+	<section class = "CreditosAutor">
+		<h1> Autor de la página </h1>
+		<p> Presentado por: Juan Daniel Ramírez Mojica</p> <!-- Mis nombres y apellidos -->
+		<p>Correo electrónico: juaramirezmo@unal.edu.co</p>
+		<p>Universidad Nacional de Colombia</p> <!-- Universidad Nacional de Colombia-->
+		<p>Materia: Gráfica Interactiva</p>
+		<p>24 de Noviembre del 2023</p> <!-- Fecha-->
+
+	</section>
+	 <br>
+	 <br>
+
+	   <!-- Menú de navegación dentro de la página-->
+		<nav class="minimenu">
+			<h2>Seleccionar</h2>
+			<ul>
+				<li><a href="#descripcion">Descripción</a></li>
+				<li><a href="#informacion">Información</a></li>
+				<li><a href="#imagenes">Imágenes</a></li>
+				<li><a href="#mapanavegacion">Mapa de navegación</a></li>
+
+			</ul>
+		</nav>
+
+
+
+	<!--  Sección para la descripción de la página -->
+	<section class = "Creditos">
+	<br>
+	<div id="descripcion">
+	<h1> Descripción </h1>
+
+	<p> En el presente trabajo, se desarrolló una página web dedicada al universo de Batman, utilizando HTML, JavaScript (con las bibliotecas Hammer y Phaser para crear un mapa interactivo), y CSS para el diseño visual. La página principal abarca diversos aspectos, como el espacio físico con descripciones detalladas de la geografía y arquitectura de la ciudad, la historia que engloba los orígenes del héroe, su situación actual, enlaces relevantes a sitios externos, entre otros. Asimismo, se exploran los personajes presentes en este fascinante mundo, desde la población general hasta los icónicos héroes y villanos que lo habitan. Además, se proporciona información sobre actividades y sitios de interés, así como reseñas que enriquecen la experiencia del visitante. Destacando especialmente, se incorpora un mapa interactivo que detalla las diversas ubicaciones de las apariciones de Batman a lo largo de la ciudad. La página de créditos se presenta como una sección clave, proporcionando una explicación clara y completa de la propuesta, así como detallando los elementos que componen esta inmersiva experiencia web.
+	<br> <br> Además, para garantizar una experiencia óptima para todos los usuarios, se implementó un diseño receptivo utilizando técnicas de diseño web adaptable (responsive web design). Esto asegura que la página se visualice y funcione de manera efectiva en una variedad de dispositivos, desde computadoras de escritorio hasta tabletas y teléfonos móviles. Se realizaron pruebas exhaustivas en diferentes resoluciones de pantalla para garantizar que la información y la funcionalidad se presenten de manera coherente y fácilmente accesible, independientemente del dispositivo que utilice el visitante.</p>
+	<p2>Index</p2>
+	<p>Para la página de inicio (Index), se creó un punto de partida para el proyecto. La estructura HTML incluye enlaces a las diferentes pestañas de la página y se vincula a la hoja de estilos "estilos.css" y a estilos de texto personalizados ("Fonts") para la página. El menú de navegación incorpora un diseño amigable con un ícono desplegable y enlaces directos a secciones clave. La sección principal presenta el título de la página, "GOTHAM CITY", y un mensaje de bienvenida, con un botón que redirige a la sección de "Espacio Físico". En el pie de página se incluyen detalles del autor. (Tanto este encabezado, el menú y el pie de página aparecerán en cada una de las diferentes secciones). Este archivo sienta las bases para una experiencia de usuario intuitiva y una presentación clara del contenido sobre Gotham City.</p>
+	<p2>Espacio Físico</p2>
+	<p>La sección "Espacio Físico" se sumerge en los detalles fascinantes de Gotham City. Dividida en varias subsecciones, los visitantes pueden explorar la "Descripción", sumergiéndose en el papel cultural  de la metrópolis. La subsección "Geografía" revela la ubicación única de Gotham y sus conexiones, mientras que "Arquitectura" destaca la mezcla intrigante de estilos que caracterizan la ciudad. Cada subsección ofrece una experiencia interactiva y atractiva, respaldada por tecnologías web modernas como HTML y CSS </p>
+	<p2>Historia</p2>
+	<p>Esta sección  presenta un viaje a través de los momentos clave de Gotham City. Organizada en subsecciones como "Orígenes", "Inicios del siglo XXI" y "Actualidad", la página explora las múltiples facetas de la ciudad a lo largo de su ficticia historia. Desde los eventos fundacionales hasta desafíos contemporáneos como la "Tierra de Nadie" y la Guerra de Bromas y Acertijos, los visitantes descubrirán la rica narrativa que ha dado forma a Gotham. Además, la sección ofrece enlaces a vídeos que amplían aún más el conocimiento sobre la historia de esta emblemática ciudad.</p>
+	<p2>Personajes</p2>
+	<p>La sección "Personajes" permite conocer a sus habitantes más emblemáticos. Organizada en subsecciones como "Población", "Héroes" y "Villanos", la página ofrece un vistazo a la rica diversidad de la metrópolis, desde los ciudadanos comunes hasta los personajes extraordinarios que luchan por la justicia o siembran el caos. Descubre por qué los habitantes eligen quedarse en esta ciudad peligrosa, conoce a los héroes enmascarados como Batman y Nightwing, y adéntrate en las mentes maestras de los villanos como el Joker y el Espantapájaros. Una galería visual acompaña la exploración de estos fascinantes personajes, brindando una experiencia completa y envolvente.</p>
+	<p2>Actividades</p2>
+	<p>En la sección "Actividades" de Gotham City, los usuarios podrán sumergirse en los lugares más emblemáticos y misteriosos de esta metrópolis única. Desde la majestuosa Mansión Wayne hasta la enigmática Baticueva, cada ubicación tiene su propia historia cautivadora. Explora la imponente Torre Wayne, adéntrate en los secretos de Arkham Asylum y descubre los oscuros rincones de Robinson Park. Además, los usuarios pueden leer reseñas de personajes, desde la perspectiva de figuras como Bruce Wayne, Carmine Falcone, Harvey Dent y Selina Kyle. </p>
+	<p2>Mapa Interactivo</p2>
+	<p>En la sección "Mapa Interactivo", los usuarios explorarán Ciudad Gótica y podrán observar las ubicaciones frecuentes de Batman en cada lugar, donde cada clic revela detalles sobre sus avistamientos (Se decidió no mostrar información de cada lugar debido a que estos ya aparecían en la página de actividades en lugares de interés, por lo que era redundante). Esta interactividad se logró gracias a JavaScript y librerías especializadas, las cuales son: "Phaser.js" da vida al mapa, permitiendo clics en íconos de Batman para revelar sus ubicaciones clave. Mientras que "ScripMapaInteractivo.js" destaca puntos de interés en colaboración con Phaser.js, guiando a los usuarios en una emocionante búsqueda. Por otro lado, "Hammer.js" mejora la experiencia en dispositivos móviles, facilitando la navegación táctil.</p>
+
+
+
+	</div>
+	<!--  Sección para la información y fuentes de las imágenes -->
+		<div id="informacion">
+		<h1> Información </h1>
+		<div class="rowImg">  <!-- Esto es para hacer una lista en columnas de los créditos de la información e imágenes-->
+
+
+		<div class="CreditosImagenColumna"> <!-- Inicio de una columna de créditos de fuente -->
+		<h3>[1] Fandom</h3> <!-- Encabezado de nivel 3 que indica la fuente [1] -->
+		<a href="https://batman.fandom.com/wiki/Gotham_City#History" target="_blank">Gotham City</a> <!-- Enlace a la fuente Fandom [1] -->
+		</div> <!-- Cierre de la columna de créditos de fuente -->
+
+		<div class="CreditosImagenColumna"> <!-- Inicio de una columna de créditos de fuente -->
+		<h3>[2] Univision</h3> <!-- Encabezado de nivel 3 que indica la fuente [2] -->
+		<a href="https://www.univision.com/entretenimiento/geek/manana-me-mudo-9-ciudades-de-los-comics-donde-ya-nadie-deberia-vivir" target="_blank">Mañana me mudo! 9 ciudades de los cómics donde ya nadie debería vivir</a> <!-- Enlace a la fuente Univision [2] -->
+		</div> <!-- Cierre de la columna de créditos de fuente -->
+
+		<!-- Se repite la misma estructura para las siguientes fuentes [3] a [17] y se vuelve a repetir en la aprte de imágenes -->
+
+		<div class="CreditosImagenColumna">
+			<h3>[3] Fandom</h3>
+			<a href="https://batman.fandom.com/es/wiki/Blackgate" target="_blank">Blackgate Batpedia</a>
+		</div>
+
+		<div class="CreditosImagenColumna">
+			<h3>[4] Fandom</h3>
+			<a href="https://batman.fandom.com/es/wiki/Gotham_City_(Gotham)" target="_blank">Gotham City (Gotham)</a>
+		</div>
+
+		<div class="CreditosImagenColumna">
+			<h3>[5] Fandom</h3>
+			<a href="https://batman.fandom.com/es/wiki/Gotham_City_(Nolan_Films)" target="_blank">Gotham City (Nolan Films)</a>
+		</div>
+		<div class="CreditosImagenColumna">
+			<h3>[6] UrbaNews</h3>
+			<a href="https://www.urbanews.fr/2012/04/29/20605-gotham-city-une-ville-sombre-et-stupefiante/" target="_blank">Gotham City: una ciudad oscura y sorprendente</a>
+		</div>
+		<div class="CreditosImagenColumna">
+			<h3>[7] Batman Legend</h3>
+			<a href="https://www.batman-legend.com/focus-gotham-city-cite-tragique-batman/" target="_blank">Enfoque en Gotham City, la ciudad trágica...</a>
+		</div>
+		
+		<div class="CreditosImagenColumna">
+			<h3>[8] La Prensa Perú</h3>
+			<a href="https://laprensa.peru.com/espectaculos/noticia-gotham-temporada-2-familias-fundadoras-wayne-dumas-crown-kane-elliot-53444/4" target="_blank">Gotham ¿Cúales fueron las 5 familias que fundaron la ciudad?</a>
+		</div>
+
+		<div class="CreditosImagenColumna">
+			<h3>[9] Wikipedia</h3>
+			<a href="https://es.wikipedia.org/wiki/Batman:_No_Man%27s_Land" target="_blank">Batman: No Man's Land</a>
+		</div>
+
+		<div class="CreditosImagenColumna">
+			<h3>[10] CBR</h3>
+			<a href="https://www.cbr.com/best-batman-comics-quotes/" target="_blank">10 Greatest Batman Quotes From The Comics</a>
+		</div>
+
+		<div class="CreditosImagenColumna">
+			<h3>[11] ScreenRant</h3>
+			<a href="https://screenrant.com/dc-comics-batgirls-most-memorable-quotes/" target="_blank">DC Comics: Batgirl’s 10 Most Memorable Quotes (screenrant.com)</a>
+		</div>
+
+
+		<div class="CreditosImagenColumna">
+			<h3>[12] ScreenRant</h3>
+			<a href="https://screenrant.com/batman-most-important-locations-places-in-gotham-city/" target="_blank">Batman: The 10 Most Important Locations In Gotham City (screenrant.com)</a>
+		</div>
+
+		<div class="CreditosImagenColumna">
+			<h3>[13] ScreenRant</h3>
+			<a href="https://screenrant.com/batman-joker-final-battle-ace-chemicals/" target="_blank">Batman & Joker's Final Battle Returns To Iconic DC Location (screenrant.com)</a>
+		</div>
+
+
+		<div class="CreditosImagenColumna">
+			<h3>[14] ArchDaily</h3>
+			<a href="https://www.archdaily.cl/cl/624133/cine-y-arquitectura-batman" target="_blank">Cine y Arquitectura: "Batman"</a>
+		</div>
+
+		<div class="CreditosImagenColumna">
+			<h3>[15] DC</h3>
+			<a href="https://www.dc.com/blog/2021/03/29/take-a-tour-of-batmans-hometown-with-exploring-gotham-city" target="_blank">Take a Tour of Batman's Hometown with "Exploring Gotham City"</a>
+		</div>
+
+	<div class="CreditosImagenColumna">
+			<h3>[16] Youtube | Comics Story </h3>
+			<a href="https://www.youtube.com/watch?v=2NBcGpQyC7Y" target="_blank">Batman No Man's Land - Full Story </a>
+		</div>
+	<div class="CreditosImagenColumna">
+			<h3>[17] Youtube | Comicstorian</h3>
+			<a href="https://www.youtube.com/watch?v=NrNIwogaNus" target="_blank">La Historia De Gotham City (ORIGEN) - DC </a>
+		</div>
+
+	<div class="CreditosImagenColumna">
+			<h3>[18] Youtube | Schizofenik</h3>
+			<a href="https://www.youtube.com/watch?v=xKWicAJZSDs" target="_blank">The History of Gotham City</a>
+		</div>
+
+		<div class="CreditosImagenColumna">
+			<h3>[19]  Youtube | Comicstorian</h3>
+			<a href="https://www.youtube.com/watch?v=7SRA71ra3mI&t=116s" target="_blank">¿Por qué las personas siguen viviendo en Gotham City?</a>
+		</div>
+		</div>
+
+		<!-- Créditos IMAGENES-->
+
+		</div>
+		<div id="imagenes">
+		<h1> Imágenes </h1>
+		<div class="rowImg">  <!-- Esto es para hacer una lista en columnas de los créditos de las imágenes -->
+		<div class="CreditosImagenColumna">
+		<h3>[1] Fandom</h3>
+		<a href="https://batman.fandom.com/wiki/Gotham_City?file=Gotham_skyline1.jpg"_blank> Batamn Gotham Skyline </a>
+		</div> 
+		<div class="CreditosImagenColumna">
+			<h3>[2] Univision</h3>
+			<a href="https://www.univision.com/entretenimiento/geek/manana-me-mudo-9-ciudades-de-los-comics-donde-ya-nadie-deberia-vivir" target="_blank">Mañana me mudo! 9 ciudades de los cómics donde ya nadie debería vivir</a>
+		</div>
+		<div class="CreditosImagenColumna">
+			<h3>[3] Fandom</h3>
+			<a href="https://wallhere.com/en/wallpaper/1832587" target="_blank">Gotham Skyline</a>
+		</div>
+        
+		<div class="CreditosImagenColumna">
+			<h3>[4] Pinterest</h3>
+			<a href="https://co.pinterest.com/pin/83598136808588779/" target="_blank">Gotham City Map</a>
+		</div>
+
+		<div class="CreditosImagenColumna">
+			<h3>[5] Pinterest</h3>
+			<a href="https://co.pinterest.com/pin/387872586637767393/" target="_blank">Gotham City Map Divided</a>
+		</div>
+		<div class="CreditosImagenColumna">
+			<h3>[6] Pinterest</h3>
+			<a href="https://co.pinterest.com/pin/203013895691151439/" target="_blank">Batman City of Bane 1</a>
+		</div>
+		<div class="CreditosImagenColumna">
+			<h3>[7] Pinterest</h3>
+			<a href="https://co.pinterest.com/pin/218002438203396650/" target="_blank">Batman City of Bane 2</a>
+		</div>
+		
+		<div class="CreditosImagenColumna">
+			<h3>[8] Pinterest</h3>
+			<a href="https://co.pinterest.com/pin/717268678140332551/" target="_blank">Batman and Joker</a>
+		</div>
+
+	  <div class="CreditosImagenColumna">
+			<h3>[9] Pinterest</h3>
+			<a href="https://co.pinterest.com/pin/525513850262020775/" target="_blank">War of Joker and Riddles</a>
+		</div>
+
+		<div class="CreditosImagenColumna">
+			<h3>[10] Deviant Art</h3>
+			<a href="https://www.deviantart.com/matlopes/art/Batman-The-Dark-Night-2-482524781" target="_blank">Batman - The Dark Night 2</a>
+		</div>
+
+		<div class="CreditosImagenColumna">
+			<h3>[11] Deviant Art</h3>
+			<a href="https://www.deviantart.com/costalonga/art/Gotham-City-Mugshots-Scarecrow-384606021" target="_blank">Gotham City Mugshots</a>
+		</div>
+
+		<div class="CreditosImagenColumna">
+			<h3>[12] Deviant Art</h3>
+			<a href="https://www.deviantart.com/xxnightblade08xx/art/Batcave-269420694" target="_blank">Batcave</a>
+		</div>
+
+		<div class="CreditosImagenColumna">
+			<h3>[13] Neoverso</h3>
+			<a href="https://neoverso.com/recomendacion-comic-batman-corte-de-los/" target="_blank">Batman: Corte de los búhos</a>
+		</div>
+
+	<div class="CreditosImagenColumna">
+			<h3>[14] Alchetron</h3>
+			<a href="https://alchetron.com/James-Gordon-(comics)#james-gordon-comics-15d3cbc2-29cc-4183-8984-5cbc593b4a9-resize-750.jpg" target="_blank">James Gordon (comics) </a>
+		</div>
+
+	<div class="CreditosImagenColumna">
+			<h3>[15] Alphacoders</h3>
+			<a href="https://art.alphacoders.com/arts/view/134985" target="_blank">Gotham Knights Art by Jim Lee</a>
+		</div>
+
+
+	<div class="CreditosImagenColumna">
+			<h3>[16] Wallpaper Safari</h3>
+			<a href="https://wallpapersafari.com/w/hbB7HT" target="_blank">Gotham City Background</a>
+		</div>
+
+	<div class="CreditosImagenColumna">
+			<h3>[17] Creative Uncut</h3>
+			<a href="https://www.creativeuncut.com/gallery-27/bao-gotham-street-view.html" target="_blank">Batman: Arkham Origins Art Gallery</a>
+		</div>
+
+	<div class="CreditosImagenColumna">
+			<h3>[18] Blue Matter</h3>
+			<a href="https://blog.coldwellbanker.com/the-bat-tastic-homes-of-wayne-manor/" target="_blank">Wayne Manor</a>
+		</div>
+
+	<div class="CreditosImagenColumna">
+			<h3>[19] Art Station</h3>
+			<a href="https://www.artstation.com/artwork/RnBQYe" target="_blank">Wayne Tower</a>
+		</div>
+
+	<div class="CreditosImagenColumna">
+			<h3>[20] Art Station</h3>
+			<a href="https://www.artstation.com/artwork/Rn656v" target="_blank">GCPD</a>
+		</div>
+	<div class="CreditosImagenColumna">
+			<h3>[21] The Mind Reels</h3>
+			<a href="https://themindreels.com/2016/03/29/batman-the-animated-series-1992-dreams-in-darkness-beware-the-gray-ghost-and-cat-scratch-fever/" target="_blank">Batman: The Animated Series (1992)</a>
+		</div>
+
+	<div class="CreditosImagenColumna">
+			<h3>[22] Wallpaper a day</h3>
+			<a href="http://wall-a-day.blogspot.com/2012/01/monarch-theatre-painting-widescreen.html" target="_blank">Monarch theatre painting</a>
+		</div>
+
+
+	<div class="CreditosImagenColumna">
+			<h3>[23] ScreenRant</h3>
+			<a href="https://screenrant.com/batman-joker-final-battle-ace-chemicals/" target="_blank">ACE Chemicals</a>
+		</div>
+
+	<div class="CreditosImagenColumna">
+			<h3>[24]  Canva</h3>
+			<a href="https://www.canva.com/" target="_blank">Elementos gráficos de Canva</a>
+		</div>
+	</div>
+
+
+		<div id="mapanavegacion">
+		<h1> Mapa de navegación </h1>
+		<div class="MapaNavegacionDiv">
+			<img src= "imagenes/MapaNav.png">
+		</div>
+		</div>
+
+	<a href="Creditos.html" target="_self" class="boton-regreso CursorMurcielago">Volver al Inicio</a>
+
+	</section>
+
+	<div class="footer"> <!-- Div para el pie de página con clase CSS "footer" -->
+		<!-- Pie de pagina -->
+		<h> Presentado por: Juan Daniel Ramírez Mojica<br></h> <!-- Mis nombres y apellidos -->
+		<h>Correo electrónico: juaramirezmo@unal.edu.co<br></h>
+		<h>Universidad Nacional de Colombia<br></h> <!-- Universidad Nacional de Colombia-->
+		<h>Noviembre del 2023</h> <!-- Fecha-->
+    </div> <!-- Cierre del pié de página -->
+
+</body>
+</html>
+
+
